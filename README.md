@@ -4,6 +4,9 @@
 
 This plugin will open a file on your device file system with its default application.
 
+FORK: Removed the permission  REQUEST_INSTALL_PACKAGES, to allow publishing on Android Play Store. This disables the Install/Unistall of APK.
+
+
 ```js
 cordova.plugins.fileOpener2.open(
     filePath,
